@@ -15,7 +15,7 @@ spec:
         app: sports
     spec:
       containers:
-      - image: sathyauk/firstapp:v2
+      - image: sathyauk/firstapp:#{Build.BuildId}#
         name: sports
         ports:
         - containerPort: 80

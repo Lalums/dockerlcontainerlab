@@ -1,2 +1,2 @@
 FROM  nginx:alpine
-COPY . /usr/share/nginx/html/sports
+COPY . /usr/share/nginx/html/
